@@ -1,17 +1,11 @@
-.firstslide {
+.view {
     background-image: url('img/nerjabidler/bild5.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
 
 .secondslide {
-    background-image: url('img/nerjabidler/bild9.jpg'); 
-    background-repeat: no-repeat; 
-    background-size: cover;
+    background-image: url('img/nerjabidler/bild9.jpg');
 }
 
 .thirdslide {
     background-image: url('img/nerjabidler/bild15.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
