@@ -1,11 +1,6 @@
-.view {
-    background-image: url('img/nerjabidler/bild5.jpg');
-}
-
-.secondslide {
-    background-image: url('img/nerjabidler/bild9.jpg');
-}
-
-.thirdslide {
-    background-image: url('img/nerjabidler/bild15.jpg');
+#plx {
+    z-index: 100;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
