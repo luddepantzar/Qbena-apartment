@@ -1,9 +1,17 @@
-<<<<<<< HEAD
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
 #plx {
     z-index: 100;
+    background: url(img/nerjabidler/sunset-pic.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-=======
->>>>>>> 84e8404595dfed0333f8125a1632f8551f27026b
+
+.nav-item {
+    transition: all .4s ease-in-out;
+}
+
+.nav-item:hover {
+    border-bottom: 2px;
+    transition: all .4s ease-in-out;
+}
