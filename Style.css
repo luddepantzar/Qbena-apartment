@@ -1,8 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
-#plx {
-    z-index: 100;
-    background: url(img/nerjabidler/sunset-pic.jpg);
+.parallax { 
+    /* The image used */
+    background-image: url("img/nerjabidler/sunset-pic.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
