@@ -10,10 +10,14 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
-            items:3
+            items:2
         }
     }
 })
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,sv'}, 'google_translate_element');
+  }
