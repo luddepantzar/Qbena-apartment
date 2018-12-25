@@ -9,13 +9,6 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:1
         },
-<<<<<<< HEAD
-        600:{
-            items:1
-        },
-        1000:{
-            items:2
-=======
         767: {
             items:1
         },
@@ -24,7 +17,6 @@ $('.owl-carousel').owlCarousel({
         },
         1000: {
             items: 2
->>>>>>> 6d90716afd2436b7554c0889f2ab6f63ef8b99df
         }
 
     }
@@ -33,3 +25,15 @@ $('.owl-carousel').owlCarousel({
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,sv'}, 'google_translate_element');
   }
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+});
