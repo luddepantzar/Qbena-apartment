@@ -49,6 +49,9 @@ $mailheader = "From: $email \r\n";
 
 if(mail($recipient, $subject, $content, $mailheader) or die("Error!"))
 {
-    header("Location:ThanksForMailing.html"); 
+    echo '<script type="text/javascript">',
+      'Notification();',
+      '</script>'
+      ;
 }
 ?>
