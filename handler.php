@@ -47,7 +47,11 @@ Meddelande slut.
 $recipient = "thomas@qbena.se";
 $mailheader = "From: $email \r\n";
 
-if(mail($recipient, $subject, $content, $mailheader) or die("Error!"))
+if(mail($recipient, $subject, $content, $mailheader) or die("Error! Meddelandet kunde inte skickas.
+Recipient: $recipient  
+Subject: $subject  
+Content: $content  
+From: $mailheader"))
 {
     echo '<script type="text/javascript">',
       'Notification();',

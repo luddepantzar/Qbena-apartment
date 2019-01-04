@@ -41,7 +41,7 @@ document.getElementById('status').innerHTML = "Sending...";
     };
 
     $.ajax({
-    url : "mail.php",
+    url : "handler.php",
     type: "POST",
     data : formData,
     success: function(data, textStatus, jqXHR)
