@@ -18,11 +18,13 @@
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
     <style type="text/css">
-        @media (min-width: 800px) and (max-width: 850px) {
+
+        {% comment %} @media (min-width: 800px) and (max-width: 850px) {
             .navbar:not(.top-nav-collapse) {
                 background: #1C2331 !important;
             }
-        }
+        }  {% endcomment %}
+        
     </style>
     <link href="Style.css" rel="stylesheet" type="text/css">
     <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
@@ -139,7 +141,7 @@
                     <div class="mask  d-flex justify-content-center align-items-center">
 
                         <!-- Content -->
-                        <div class="text-center white-text mx-5 wow fadeInUp">
+                        <div class="text-center white-text mx-5">
                             <h1 class="mb-4">
                                 <strong>Nerja Andalusien</strong>
                             </h1>
@@ -168,7 +170,7 @@
                     <div class="mask  d-flex justify-content-center align-items-center">
 
                         <!-- Content -->
-                        <div class="text-center white-text mx-5 wow fadeInUp">
+                        <div class="text-center white-text mx-5">
                             <h1 class="mb-4">
                                 <strong>Nerja Andalusien</strong>
                             </h1>
@@ -858,7 +860,7 @@
                         <div class="center-on-small-only">
                             <a class="btn btn-primary" onclick="validateForm()">Skicka</a>
                         </div>
-                        <div class="status text-danger" id="status"></div>
+                       <!--<div class="status text-danger" id="status"></div> -->
                     </div>
                     <!--Grid column-->
 
