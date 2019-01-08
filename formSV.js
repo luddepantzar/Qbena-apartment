@@ -25,14 +25,15 @@ function validateForm() {
         document.getElementById('status').innerHTML = "Ett meddelande krävs om du önskar att få hjälp av oss.";
         return false;
     }
-    document.getElementById('status').innerHTML = "Sending...";
+    document.getElementById('status').innerHTML = "Skickar...";
+
     document.getElementById('contact-form').submit();
 
 }
 
 // --------------------------AJAX----------------------------------
 
-document.getElementById('status').innerHTML = "Sending...";
+// document.getElementById('status').innerHTML = "Skickar...";
     formData = {
         'name'     : $('input[name=name]').val(),
         'email'    : $('input[name=email]').val(),
@@ -52,6 +53,6 @@ document.getElementById('status').innerHTML = "Sending...";
     },
     error: function (jqXHR, textStatus, errorThrown)
     {
-        $('#status').text(jqXHR);
+        // $('#status').text("");
     }
 });
